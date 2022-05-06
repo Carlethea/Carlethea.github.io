@@ -1,0 +1,32 @@
+body{
+color: white;
+background-color: darkslategray;
+text-align: middle;
+font-size: larger;
+}
+#roly{
+    background-color:rgba(0, 247, 255, 0.514)
+}
+section {
+    background-color: black;
+    margin: 1in;
+    transition: all 2s;
+    padding: .3in;
+    width: 550px;
+    height: 20px;
+    border: .50cm solid gray; 
+    display: flex;
+
+
+}
+
+.nice{
+    font-family:'Times New Roman', Times, serif
+}
+
+section:hover {
+    background-color:darkslategrey
+}
+section:active{
+    outline: 10px double rgba(1, 2, 8, 0.503);
+}
